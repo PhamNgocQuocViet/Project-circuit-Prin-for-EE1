@@ -1,0 +1,88 @@
+CircuitSolver Source-Available Freeware License
+Version 1.0, 4 August 2026
+
+Copyright (c) 2026 Phạm Ngọc Quốc Việt, Nguyên Anh Quân,
+Ngô Phan Minh Quân, Nguyên Lê Minh Quân, and Hoàng Bá Minh Quân
+at the International University - Vietnam National University,
+Ho Chi Minh City (VNU-HCM), Vietnam (collectively, the "Copyright Holders").
+
+1. Free Use
+
+Subject to this License, the Copyright Holders grant you a limited,
+non-exclusive, non-transferable, revocable license to download, run, and use
+the Software free of charge for personal, educational, academic, research,
+and internal evaluation purposes.
+
+2. Source Availability and Modification
+
+The source code is made available for inspection and learning. You may modify
+the Software solely for your own uses permitted by Section 1. You may not
+publish, distribute, sublicense, transfer, or otherwise provide the original
+or modified Software, source code, executable files, or substantial portions
+of either to any other person without prior written permission from the
+Copyright Holders.
+
+3. No Sale or Commercial Distribution
+
+You may not sell, rent, lease, license for a fee, monetize, commercially
+distribute, or include the Software or a modified version in a paid product,
+service, bundle, or offering without prior written permission from the
+Copyright Holders.
+
+4. Attribution and Notices
+
+You may not remove or alter copyright, authorship, license, attribution, or
+proprietary notices contained in the Software. Permitted private modifications
+must retain this License and all such notices.
+
+5. Permission Requests
+
+Permission to redistribute, publish, transfer, sell, or commercially use the
+Software must be obtained in writing from the Copyright Holders before the
+activity occurs. Permission may be granted or refused at their discretion and
+may be subject to separate terms.
+
+6. Ownership
+
+The Software is licensed, not sold. The Copyright Holders retain all rights,
+title, and interest in the Software except for the limited rights expressly
+granted by this License. No trademark rights are granted.
+
+7. Enforcement
+
+Any sale, redistribution, publication, transfer, sublicensing, or other use
+outside the permissions of this License is unauthorized and may constitute
+copyright infringement and breach of license. The Copyright Holders reserve
+the right to pursue injunctive relief, actual or statutory damages, legal
+costs, and any other civil or criminal remedies, penalties, or fines available
+under applicable law. Remedies and amounts are determined by the applicable
+law and a court or other competent authority; they are not automatically
+created or fixed by this License.
+
+8. Termination
+
+Your rights under this License terminate automatically if you violate any of
+its terms. Upon termination, you must stop using the Software and delete all
+copies in your possession or control, except where retention is required by
+law. Sections 4, 6, 7, 9, and 10 survive termination.
+
+9. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+10. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDERS SHALL NOT BE
+LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+11. Third-Party Software
+
+Third-party libraries, assets, and other dependencies remain subject to their
+own licenses. This License does not replace or restrict rights granted by
+their respective copyright holders.
+
+This is a source-available license, not an Open Source Initiative-approved
+open-source license, because it restricts sale and redistribution.

@@ -1,0 +1,43 @@
+.katex {
+  font-family: "Cambria Math", "Times New Roman", serif;
+  font-size: 1.08em;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.katex-error {
+  color: inherit;
+  border-bottom: 1px dotted currentColor;
+}
+.katex-frac {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  margin: 0 0.12em;
+}
+.katex-frac-num {
+  display: block;
+  padding: 0 0.18em 0.08em 0.18em;
+}
+.katex-frac-den {
+  display: block;
+  border-top: 1px solid currentColor;
+  padding: 0.08em 0.18em 0 0.18em;
+}
+.katex-sqrt {
+  border-top: 1px solid currentColor;
+  padding-left: 0.15em;
+}
+.katex-sqrt::before {
+  content: "√";
+  margin-right: 0.08em;
+}
+.katex sup,
+.katex sub {
+  font-size: 0.74em;
+  line-height: 0;
+}
+.katex-tag {
+  float: right;
+  margin-left: 1em;
+}

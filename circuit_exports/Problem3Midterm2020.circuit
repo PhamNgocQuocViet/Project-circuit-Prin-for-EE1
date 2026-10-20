@@ -1,0 +1,355 @@
+{
+  "circuit_name": "Problem3Midterm2020",
+  "components": [
+    {
+      "id": "V#1",
+      "reference_name": "V#1",
+      "type": "VOLTAGE_SOURCE",
+      "grid_x": -5,
+      "grid_y": -1,
+      "rotation": 90,
+      "assigned_value": "11",
+      "value_unit": "V",
+      "display_name": "Voltage Source #1"
+    },
+    {
+      "id": "R#1",
+      "reference_name": "R#1",
+      "type": "RESISTOR",
+      "grid_x": -3,
+      "grid_y": -4,
+      "rotation": 180,
+      "assigned_value": "7",
+      "value_unit": "k\u03a9",
+      "display_name": "Resistor #1"
+    },
+    {
+      "id": "R#2",
+      "reference_name": "R#2",
+      "type": "RESISTOR",
+      "grid_x": -1,
+      "grid_y": -2,
+      "rotation": 270,
+      "assigned_value": "5",
+      "value_unit": "k\u03a9",
+      "display_name": "Resistor #2"
+    },
+    {
+      "id": "R#3",
+      "reference_name": "R#3",
+      "type": "RESISTOR",
+      "grid_x": 1,
+      "grid_y": 0,
+      "rotation": 180,
+      "assigned_value": "5",
+      "value_unit": "k\u03a9",
+      "display_name": "Resistor #3"
+    },
+    {
+      "id": "R#4",
+      "reference_name": "R#4",
+      "type": "RESISTOR",
+      "grid_x": -1,
+      "grid_y": 2,
+      "rotation": 270,
+      "assigned_value": "1",
+      "value_unit": "k\u03a9",
+      "display_name": "Resistor #4"
+    },
+    {
+      "id": "R#5",
+      "reference_name": "R#5",
+      "type": "RESISTOR",
+      "grid_x": 3,
+      "grid_y": 2,
+      "rotation": 270,
+      "assigned_value": "5",
+      "value_unit": "k\u03a9",
+      "display_name": "Resistor #5"
+    },
+    {
+      "id": "Node A",
+      "reference_name": "Node A",
+      "type": "NODE",
+      "grid_x": -5,
+      "grid_y": -4,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node A"
+    },
+    {
+      "id": "Node B",
+      "reference_name": "Node B",
+      "type": "NODE",
+      "grid_x": -1,
+      "grid_y": -4,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node B"
+    },
+    {
+      "id": "Node C",
+      "reference_name": "Node C",
+      "type": "NODE",
+      "grid_x": 3,
+      "grid_y": -4,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node C"
+    },
+    {
+      "id": "Node D",
+      "reference_name": "Node D",
+      "type": "NODE",
+      "grid_x": -1,
+      "grid_y": 0,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node D"
+    },
+    {
+      "id": "Node E",
+      "reference_name": "Node E",
+      "type": "NODE",
+      "grid_x": 3,
+      "grid_y": 0,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node E"
+    },
+    {
+      "id": "Node F",
+      "reference_name": "Node F",
+      "type": "NODE",
+      "grid_x": 3,
+      "grid_y": 4,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node F"
+    },
+    {
+      "id": "Node G",
+      "reference_name": "Node G",
+      "type": "NODE",
+      "grid_x": -1,
+      "grid_y": 4,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node G"
+    },
+    {
+      "id": "Node H",
+      "reference_name": "Node H",
+      "type": "NODE",
+      "grid_x": -5,
+      "grid_y": 4,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node H"
+    }
+  ],
+  "connections": [
+    {
+      "from": "V#1",
+      "from_terminal": "positive",
+      "to": "Node A",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node A",
+      "from_terminal": "negative",
+      "to": "R#1",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "R#1",
+      "from_terminal": "positive",
+      "to": "Node B",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node B",
+      "from_terminal": "negative",
+      "to": "R#2",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node B",
+      "from_terminal": "negative",
+      "to": "Node C",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node C",
+      "from_terminal": "negative",
+      "to": "Node E",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "R#2",
+      "from_terminal": "positive",
+      "to": "Node D",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node D",
+      "from_terminal": "negative",
+      "to": "R#4",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node E",
+      "from_terminal": "negative",
+      "to": "R#5",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "R#5",
+      "from_terminal": "positive",
+      "to": "Node F",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node F",
+      "from_terminal": "negative",
+      "to": "Node G",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node G",
+      "from_terminal": "negative",
+      "to": "Node H",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node H",
+      "from_terminal": "negative",
+      "to": "V#1",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node D",
+      "from_terminal": "negative",
+      "to": "R#3",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "R#3",
+      "from_terminal": "positive",
+      "to": "Node E",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "R#4",
+      "from_terminal": "positive",
+      "to": "Node G",
+      "to_terminal": "negative"
+    }
+  ],
+  "nodes": [
+    {
+      "node_group_id": "Node_1",
+      "node_ids": [
+        "Node A"
+      ],
+      "grid_positions": [
+        [
+          -5,
+          -4
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_2",
+      "node_ids": [
+        "Node B"
+      ],
+      "grid_positions": [
+        [
+          -1,
+          -4
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_3",
+      "node_ids": [
+        "Node C"
+      ],
+      "grid_positions": [
+        [
+          3,
+          -4
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_4",
+      "node_ids": [
+        "Node D"
+      ],
+      "grid_positions": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_5",
+      "node_ids": [
+        "Node E"
+      ],
+      "grid_positions": [
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_6",
+      "node_ids": [
+        "Node F"
+      ],
+      "grid_positions": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_7",
+      "node_ids": [
+        "Node G"
+      ],
+      "grid_positions": [
+        [
+          -1,
+          4
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_8",
+      "node_ids": [
+        "Node H"
+      ],
+      "grid_positions": [
+        [
+          -5,
+          4
+        ]
+      ]
+    }
+  ]
+}

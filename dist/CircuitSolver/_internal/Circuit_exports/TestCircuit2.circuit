@@ -1,0 +1,56 @@
+{
+  "circuit_name": "TestCircuit2",
+  "components": [
+    {
+      "id": "R#1",
+      "reference_name": "R#1",
+      "type": "RESISTOR",
+      "grid_x": -3,
+      "grid_y": -2,
+      "rotation": 180,
+      "assigned_value": "50",
+      "display_name": "Resistor #1"
+    },
+    {
+      "id": "I#1",
+      "reference_name": "I#1",
+      "type": "CURRENT_SOURCE",
+      "grid_x": -4,
+      "grid_y": 0,
+      "rotation": 90,
+      "assigned_value": "",
+      "display_name": "Current Source #1"
+    },
+    {
+      "id": "V#1",
+      "reference_name": "V#1",
+      "type": "VOLTAGE_SOURCE",
+      "grid_x": -1,
+      "grid_y": 0,
+      "rotation": 270,
+      "assigned_value": "12",
+      "display_name": "Voltage Source #1"
+    }
+  ],
+  "connections": [
+    {
+      "from": "I#1",
+      "from_terminal": "positive",
+      "to": "R#1",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "R#1",
+      "from_terminal": "positive",
+      "to": "V#1",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "V#1",
+      "from_terminal": "positive",
+      "to": "I#1",
+      "to_terminal": "negative"
+    }
+  ],
+  "nodes": []
+}

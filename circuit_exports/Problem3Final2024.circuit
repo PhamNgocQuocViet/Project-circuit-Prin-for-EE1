@@ -1,0 +1,338 @@
+{
+  "circuit_name": "Problem3Final2024",
+  "components": [
+    {
+      "id": "R#1",
+      "reference_name": "R#1",
+      "type": "RESISTOR",
+      "grid_x": -9,
+      "grid_y": 0,
+      "rotation": 270,
+      "assigned_value": "1",
+      "value_unit": "\u03a9",
+      "display_name": "Resistor #1"
+    },
+    {
+      "id": "C#1",
+      "reference_name": "C#1",
+      "type": "CAPACITOR",
+      "grid_x": -7,
+      "grid_y": 0,
+      "rotation": 270,
+      "assigned_value": "0.5",
+      "value_unit": "F",
+      "display_name": "Capacitor #1"
+    },
+    {
+      "id": "C#2",
+      "reference_name": "C#2",
+      "type": "CAPACITOR",
+      "grid_x": -5,
+      "grid_y": -2,
+      "rotation": 0,
+      "assigned_value": "1",
+      "value_unit": "F",
+      "display_name": "Capacitor #2"
+    },
+    {
+      "id": "L#1",
+      "reference_name": "L#1",
+      "type": "INDUCTOR",
+      "grid_x": -3,
+      "grid_y": 0,
+      "rotation": 270,
+      "assigned_value": "1",
+      "value_unit": "H",
+      "display_name": "Inductor #1"
+    },
+    {
+      "id": "I#1",
+      "reference_name": "I#1",
+      "type": "CURRENT_SOURCE",
+      "grid_x": -1,
+      "grid_y": 0,
+      "rotation": 90,
+      "assigned_value": "sin(t)",
+      "value_unit": "A",
+      "display_name": "Current Source #1"
+    },
+    {
+      "id": "Node A",
+      "reference_name": "Node A",
+      "type": "NODE",
+      "grid_x": -1,
+      "grid_y": -2,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node A"
+    },
+    {
+      "id": "Node B",
+      "reference_name": "Node B",
+      "type": "NODE",
+      "grid_x": -3,
+      "grid_y": -2,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node B"
+    },
+    {
+      "id": "Node C",
+      "reference_name": "Node C",
+      "type": "NODE",
+      "grid_x": -7,
+      "grid_y": -2,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node C"
+    },
+    {
+      "id": "Node D",
+      "reference_name": "Node D",
+      "type": "NODE",
+      "grid_x": -9,
+      "grid_y": -2,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node D"
+    },
+    {
+      "id": "Node E",
+      "reference_name": "Node E",
+      "type": "NODE",
+      "grid_x": -9,
+      "grid_y": 2,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node E"
+    },
+    {
+      "id": "Node F",
+      "reference_name": "Node F",
+      "type": "NODE",
+      "grid_x": -7,
+      "grid_y": 2,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node F"
+    },
+    {
+      "id": "Node G",
+      "reference_name": "Node G",
+      "type": "NODE",
+      "grid_x": -3,
+      "grid_y": 2,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node G"
+    },
+    {
+      "id": "Node H",
+      "reference_name": "Node H",
+      "type": "NODE",
+      "grid_x": -1,
+      "grid_y": 2,
+      "rotation": 0,
+      "assigned_value": "",
+      "value_unit": "",
+      "display_name": "Node H"
+    }
+  ],
+  "connections": [
+    {
+      "from": "I#1",
+      "from_terminal": "positive",
+      "to": "Node A",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node A",
+      "from_terminal": "negative",
+      "to": "Node B",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node B",
+      "from_terminal": "negative",
+      "to": "L#1",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "L#1",
+      "from_terminal": "positive",
+      "to": "Node G",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node G",
+      "from_terminal": "negative",
+      "to": "Node H",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node H",
+      "from_terminal": "negative",
+      "to": "I#1",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node B",
+      "from_terminal": "negative",
+      "to": "C#2",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "C#2",
+      "from_terminal": "positive",
+      "to": "Node C",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node C",
+      "from_terminal": "negative",
+      "to": "C#1",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "C#1",
+      "from_terminal": "positive",
+      "to": "Node F",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node F",
+      "from_terminal": "negative",
+      "to": "Node G",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node C",
+      "from_terminal": "negative",
+      "to": "Node D",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node D",
+      "from_terminal": "negative",
+      "to": "R#1",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "R#1",
+      "from_terminal": "positive",
+      "to": "Node E",
+      "to_terminal": "negative"
+    },
+    {
+      "from": "Node E",
+      "from_terminal": "negative",
+      "to": "Node F",
+      "to_terminal": "negative"
+    }
+  ],
+  "nodes": [
+    {
+      "node_group_id": "Node_1",
+      "node_ids": [
+        "Node A"
+      ],
+      "grid_positions": [
+        [
+          -1,
+          -2
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_2",
+      "node_ids": [
+        "Node B"
+      ],
+      "grid_positions": [
+        [
+          -3,
+          -2
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_3",
+      "node_ids": [
+        "Node C"
+      ],
+      "grid_positions": [
+        [
+          -7,
+          -2
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_4",
+      "node_ids": [
+        "Node D"
+      ],
+      "grid_positions": [
+        [
+          -9,
+          -2
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_5",
+      "node_ids": [
+        "Node E"
+      ],
+      "grid_positions": [
+        [
+          -9,
+          2
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_6",
+      "node_ids": [
+        "Node F"
+      ],
+      "grid_positions": [
+        [
+          -7,
+          2
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_7",
+      "node_ids": [
+        "Node G"
+      ],
+      "grid_positions": [
+        [
+          -3,
+          2
+        ]
+      ]
+    },
+    {
+      "node_group_id": "Node_8",
+      "node_ids": [
+        "Node H"
+      ],
+      "grid_positions": [
+        [
+          -1,
+          2
+        ]
+      ]
+    }
+  ]
+}

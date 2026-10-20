@@ -1,0 +1,5 @@
+PyQt5==5.15.9
+PyQt5-sip==12.13.0
+PyQtWebEngine==5.15.7
+Markdown==3.7
+keyring==25.6.0

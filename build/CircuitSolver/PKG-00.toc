@@ -1,0 +1,81 @@
+('E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+ 'circuit Prin for EE1\\build\\CircuitSolver\\CircuitSolver.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for EE1\\build\\CircuitSolver\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for EE1\\build\\CircuitSolver\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\build\\CircuitSolver\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\build\\CircuitSolver\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for EE1\\build\\CircuitSolver\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\build\\CircuitSolver\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'e:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for '
+   'EE1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('main',
+   'E:\\HCMIU (Phase 1)\\Second year\\HK3\\Intro to computer (retake)\\Project '
+   'circuit Prin for EE1\\main.py',
+   'PYSOURCE')],
+ 'python314.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
