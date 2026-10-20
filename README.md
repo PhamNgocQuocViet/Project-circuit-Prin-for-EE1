@@ -1,4 +1,4 @@
-# Electrical Engineering Learning App
+# Electrical Engineering Learning App (HCMIU)
 
 Desktop learning tool for building simple electrical circuits, checking circuit wiring, exporting/importing circuit files, and generating AI-assisted solving walkthroughs.
 
