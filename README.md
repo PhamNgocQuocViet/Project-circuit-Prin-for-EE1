@@ -246,9 +246,9 @@ $env:PYTHONDONTWRITEBYTECODE='1'
 HCMIU, Vietnam National University:
 
 - Phạm Ngọc Quốc Việt - EEEESB24010
-- Nguyên Anh Quân - EEACIU25049
+- Nguyễn Anh Quân - EEACIU25049
 - Ngô Phan Minh Quân - EEACIU25050
-- Nguyên Lê Minh Quân - EEACIU25051
+- Nguyễn Lê Minh Quân - EEACIU25051
 - Hoàng Bá Minh Quân - EEACIU25052
 
 ## License
